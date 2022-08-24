@@ -1,0 +1,14 @@
+{
+  "name": "arduino-nodejs-socketio",
+  "version": "1.0.0",
+  "description": "Comunicação entre arduino e nodejs via socketio",
+  "scripts": {
+    "start": "start server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.5.2",
+    "express": "3.x.x",
+    "socket.io": "^2.3.0"
+  }
+}
